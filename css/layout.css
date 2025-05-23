@@ -1,0 +1,74 @@
+.inner {
+    max-width: 141rem;
+    margin: 0 auto;
+}
+
+@media (max-width:1442px) {
+    .inner {
+        margin: 0 16px;
+    }
+}
+
+.w_inner {
+    max-width: calc((100% - 141rem)/2 + 141rem);
+    margin: 0 152px;
+}
+
+.f_inner {
+    max-width: 141rem;
+    padding: 120px;
+}
+
+
+.w_inner.r {
+    margin-left: auto;
+
+}
+
+.w_inner.l {
+    margin-right: auto;
+}
+
+.default {
+    padding: 6.4rem 0;
+}
+
+.default .title {
+    max-width: 141rem;
+    margin: 0 auto;
+}
+
+.default .title h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.default .title h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.default .title p {
+    margin-top: 3.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 16px;
+    text-align: center;
+    justify-content: center;
+}
+
+.default_btn {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+
+    height: 8rem;
+
+
+    color: var(--white-color);
+    margin-top: 32px;
+    font-weight: 500;
+}
